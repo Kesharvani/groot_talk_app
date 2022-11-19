@@ -1,0 +1,54 @@
+:root {
+    --primary_color: #BA8C63;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    background-color: var(--primary_color);
+    text-align: center;
+    padding: 25px;
+    margin: 0px;
+}
+
+#ipt {
+    margin-left: 28%;
+    margin-top: 3rem;
+    width: 45%;
+    display: block;
+}
+
+#btn {
+    margin-left: 28%;
+    height: 60px;
+    padding: 20px;
+    width: 20%;
+    background-color: var(--primary_color);
+    font-weight: bold;
+    border-color: rgba(255, 111, 0, 0.493);
+}
+
+#div_id {
+    margin-left: 28%;
+    margin-top: 15px;
+}
+
+#output {
+    width: 45%;
+    margin-left: 28%;
+    border: 2px solid black;
+    margin-top: 5px;
+    padding-bottom: 4rem;
+    overflow-wrap: break-word;
+}
+
+.footer {
+    background-color: var(--primary_color);
+    margin-top: 5rem;
+    padding: 2.5rem;
+    width: auto;
+    text-align: center;
+
+}
